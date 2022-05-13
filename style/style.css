@@ -25,7 +25,7 @@ h2 {
   line-height: 1.2;
 }
 
-.container{
+.container {
   max-width: 1128px;
   margin: 0 auto;
 }
@@ -36,7 +36,7 @@ h2 {
   text-align: center;
 }
 
-.container{
+.container {
   padding: 3em 2em;
 }
 
@@ -52,32 +52,39 @@ h2 {
   font-size: 3.75rem;
 }
 
-.quality-designs__title{
+.quality-designs__title {
   color: #824936;
   margin-bottom: 1em;
 }
 
-.made-custom{
+.made-custom {
   background-color: #222c2a;
   color: #fff;
 }
 
-.made-custom__title{
+.made-custom__title {
   margin-bottom: 1em;
 }
 
-.with-care{
+.with-care {
   background-color: #824936;
   color: #fff;
 }
 
-.with-care__title{
+.with-care__title {
   margin-bottom: 1em;
 }
 
 @media (min-width: 800px) {
-  .row{
+  .row {
     display: flex;
   }
 
+  .made-custom__content {
+    display: flex;
+  }
+
+  .with-care__content {
+    display: flex;
+  }
 }
