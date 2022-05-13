@@ -17,36 +17,42 @@ img {
   max-width: 100%;
 }
 
-h1, h2{
-    margin-top: 0;
-    font-weight: 900;
-    font-family: 'Playfair Display', serif;
-    line-height: 1.2;
+h1,
+h2 {
+  margin-top: 0;
+  font-weight: 900;
+  font-family: "Playfair Display", serif;
+  line-height: 1.2;
 }
 
-section{
-    padding: 4em 0;
+.intro {
+  background-color: #f3eed9;
+  padding: 200px 0;
+  text-align: center;
 }
 
-.intro{
-   background-color: #f3eed9;
-   padding: 200px 0;
-   text-align: center;
+.container{
+  padding: 3em 2em;
 }
 
-/* .container{
-    max-width: 85%;
-    margin: 0 auto;
-} */
-
-.intro-text{
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 0.75rem;
-    margin: 0;
+.intro-text {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.75rem;
+  margin: 0;
 }
 
-.intro-title{
-    color: #824936;
-    font-size: 3.75rem;
+.intro-title {
+  color: #824936;
+  font-size: 3.75rem;
+}
+
+.made-custom{
+  background-color: #222c2a;
+  color: #fff;
+}
+
+.with-care{
+  background-color: #824936;
+  color: #fff;
 }
