@@ -34,6 +34,12 @@ h2 {
   background-color: #f3eed9;
   padding: 2em 0;
   text-align: center;
+  justify-content: center;
+  min-height: 660px;
+}
+
+.intro.content{
+  margin: 0 auto;
 }
 
 .container {
@@ -55,6 +61,11 @@ h2 {
 .quality-designs__title {
   color: #824936;
   margin-bottom: 1em;
+  text-align: center;
+}
+
+.quality-designs__p1{
+  margin-right: 2em ;
 }
 
 .made-custom {
