@@ -48,8 +48,8 @@ h2 {
 .intro-text {
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 0.75rem;
-  margin: 0;
+  font-size: 1rem;
+  margin-bottom: 1em;
 }
 
 .intro-title {
@@ -76,13 +76,25 @@ h2 {
   margin-bottom: 1em;
 }
 
+.made-custom p{
+  max-width: 80%;
+}
+
 .with-care {
   background-color: #824936;
   color: #fff;
 }
 
+/* .sunset-2{
+  margin-right: 6em ;
+} */
+
 .with-care__title {
   margin-bottom: 1em;
+}
+
+.with-care p{
+  max-width: 90%;
 }
 
 @media (min-width: 800px) {
