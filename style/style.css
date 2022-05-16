@@ -31,15 +31,14 @@ h2 {
 }
 
 .intro {
+  min-height: 660px;
   background-color: #f3eed9;
   padding: 2em 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  min-height: 660px;
-}
-
-.intro.content{
-  margin: 0 auto;
+  align-items: center;
 }
 
 .container {
